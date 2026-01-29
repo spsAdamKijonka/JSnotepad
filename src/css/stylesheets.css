@@ -1,0 +1,87 @@
+*{
+    font-family: monospace, 'Courier New', Courier, monospace;
+    box-sizing: border-box;
+    background-color: rgb(10, 10, 10);
+    color: #ffffff;
+}
+
+h2{
+    margin-bottom: 3rem;
+}
+h1,h2 {
+    font-size: 4rem;
+    color: white;
+    text-align: center;
+    margin-top: 3rem;
+}
+
+.pridat-form {
+    text-align: center;
+    display: flex;
+    width: 70%;
+    margin: 3rem auto;
+    flex-direction: column;
+    padding: 2rem;
+    background-color: black;
+    border-radius: 2rem;
+    border: rgb(147, 146, 240) 0.2rem solid;}
+
+label {
+    padding: 1rem 0rem;
+    margin-bottom: 1rem;
+    font-weight: bold;
+    font-size: 1.2rem;
+    background-color: black;
+}
+
+input, textarea {
+    outline: none;
+    background-color: rgb(30, 30, 30);
+    box-shadow: inset rgb(0, 0, 0) 0rem 0rem 1rem;
+    margin-bottom: 1rem;
+    padding: 2rem;
+    border: none;
+    font-size: 1rem;
+    border-radius: 1rem;
+}
+
+
+button {
+    align-self: center;
+    margin-top: 1rem;
+    max-width: 15rem;
+    padding: 1.5rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+    background-color: rgb(30, 30, 30);
+    color: white;
+    border: rgb(30, 30, 30) 0.2rem solid;
+    box-shadow: inset rgb(0, 0, 0) 0rem 0rem 1rem;
+    border-radius: 1rem;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+
+button:hover {
+box-shadow: none;
+}
+
+#seznam-poznamek {
+    width: 50%;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.poznamka-text h3{
+    background-color: rgb(30, 30, 30);
+}
+
+.poznamka-text{
+    background-color: bisque;
+    color: black;
+        background-color: black;
+    border: rgb(87, 86, 139) 0.2rem solid;
+    padding: 1.5rem;
+    border-radius: 1rem;
+    margin-top: 3rem;
+}
